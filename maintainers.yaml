@@ -1,0 +1,13 @@
+services:
+  ./:
+    maintainers:
+      - email: ''
+        name: Service Account
+  ./services/fabrikam.acme.frontend:
+    maintainers:
+      - email: maintainer email
+        name: maintainer name
+  ./services/fabrikam.acme.backend:
+    maintainers:
+      - email: maintainer email
+        name: maintainer name

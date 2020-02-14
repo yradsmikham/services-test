@@ -1,0 +1,30 @@
+rings:
+  master:
+    isDefault: true
+services:
+  ./services/fabrikam.acme.frontend:
+    displayName: ''
+    helm:
+      chart:
+        branch: ''
+        git: ''
+        path: ''
+    k8sBackend: ''
+    k8sBackendPort: 80
+    middlewares: []
+    pathPrefix: ''
+    pathPrefixMajorVersion: ''
+  ./services/fabrikam.acme.backend:
+    displayName: ''
+    helm:
+      chart:
+        branch: ''
+        git: ''
+        path: ''
+    k8sBackend: ''
+    k8sBackendPort: 80
+    middlewares: []
+    pathPrefix: ''
+    pathPrefixMajorVersion: ''
+variableGroups:
+  - fabrikam-vg
